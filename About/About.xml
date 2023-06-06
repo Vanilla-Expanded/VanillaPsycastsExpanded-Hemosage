@@ -1,0 +1,33 @@
+<ModMetaData>
+	<name>Vanilla Psycasts Expanded - Hemosage</name>
+	<author>Oskar Potocki, Taranchuk, Reann Shepard, Sir Van</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Royalty</packageId>
+			<displayName>Royalty</displayName>
+		</li>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+		</li>
+		<li>
+			<packageId>VanillaExpanded.VPsycastsE</packageId>
+			<displayName>Vanilla Psycasts Expanded</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2842502659</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<packageId>VanillaExpanded.VPE.Hemosage</packageId>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>brrainz.harmony</li>
+		<li>VanillaExpanded.VPsycastsE</li>
+		<li>vanillaexpanded.achievements</li>
+	</loadAfter>
+	<description>This mod adds Hemosages.
+</description>
+</ModMetaData>
