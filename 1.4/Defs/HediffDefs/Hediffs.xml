@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<HediffDef ParentName="PsycastHediffBase">
+		<defName>VPE_Bloodfocus</defName>
+		<label>Bloodfocus</label>
+		<description>text.todo.</description>
+		<hediffClass>VPEHemosage.Hediff_Bloodfocus</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_Effecter">
+				<stateEffecter>VPE_Bloodfocus</stateEffecter>
+			</li>
+		</comps>
+	</HediffDef>
+
+</Defs>
