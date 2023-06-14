@@ -2,14 +2,28 @@
 <Defs>
 
 	<HediffDef ParentName="PsycastHediffBase">
-		<defName>VPE_Bloodfocus</defName>
+		<defName>VPEH_Bloodfocus</defName>
 		<label>Bloodfocus</label>
 		<description>text.todo.</description>
 		<hediffClass>VPEHemosage.Hediff_Bloodfocus</hediffClass>
 		<comps>
 			<li Class="HediffCompProperties_Effecter">
-				<stateEffecter>VPE_Bloodfocus</stateEffecter>
+				<stateEffecter>VPEH_Bloodfocus</stateEffecter>
 			</li>
+		</comps>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>VPEH_Bloodmist</defName>
+		<label>Bloodmist</label>
+		<description>A special sanguophage particle is blocking the airways and causes intense vomiting.</description>
+		<hediffClass>VPEHemosage.Hediff_Bloodmist</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>True</showRemainingTime>
+				<disappearsAfterTicks>2500</disappearsAfterTicks>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
 		</comps>
 	</HediffDef>
 

@@ -70,10 +70,21 @@
     <Publicize Include="Assembly-CSharp" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ability_Bloodfocus.cs" />
+    <Compile Include="AbilityExtension_HemogenRequirement.cs" />
+    <Compile Include="AbilityExtension_HemogenCost.cs" />
+    <Compile Include="Ability_BloodSpew.cs" />
+    <Compile Include="Ability_CloseWounds.cs" />
+    <Compile Include="Ability_CorpseExplosion.cs" />
+    <Compile Include="Ability_Hemodrain.cs" />
+    <Compile Include="Ability_WordofOffering.cs" />
+    <Compile Include="Bloodmist.cs" />
+    <Compile Include="BloodShard.cs" />
+    <Compile Include="BloodSpew.cs" />
     <Compile Include="FocusStrengthOffset_DeathrestBuilding.cs" />
     <Compile Include="Hediff_Bloodfocus.cs" />
+    <Compile Include="Hediff_Bloodmist.cs" />
     <Compile Include="MeditationFocusAutopatcher.cs" />
+    <Compile Include="SanguineSpear.cs" />
     <Compile Include="StatPart_NearbyDeathrest.cs" />
     <Compile Include="VPEHemosageMod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

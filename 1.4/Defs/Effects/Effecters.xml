@@ -2,7 +2,7 @@
 <Defs>
 
 	<EffecterDef>
-		<defName>VPE_Bloodfocus</defName>
+		<defName>VPEH_Bloodfocus</defName>
 		<children>
 			<li>
 				<subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>

@@ -2,11 +2,11 @@
 <Defs>
 
 	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
-		<defName>VPE_Bloodfocus</defName>
+		<defName>VPEH_Bloodfocus</defName>
 		<label>blood focus</label>
 		<description>text.todo</description>
 		<iconPath>Abilities/Hemosage/BloodFocus</iconPath>
-		<abilityClass>VPEHemosage.Ability_Bloodfocus</abilityClass>
+		<abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
 		<targetMode>Self</targetMode>
 		<castFleck>PsycastAreaEffect</castFleck>
 		<castTime>180</castTime>
@@ -20,9 +20,241 @@
 				<entropyGain>0</entropyGain>
 			</li>
 			<li Class="VFECore.Abilities.AbilityExtension_Hediff">
-				<hediff>VPE_Bloodfocus</hediff>
+				<hediff>VPEH_Bloodfocus</hediff>
+			</li>
+			<li Class="VPEHemosage.AbilityExtension_HemogenRequirement">
+				<hemogenRequirement>0.1</hemogenRequirement>
 			</li>
 		</modExtensions>
 	</VFECore.Abilities.AbilityDef>
-	
+
+	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+		<defName>VPEH_BloodShard</defName>
+		<label>blood shard</label>
+		<description>text.todo</description>
+		<iconPath>Abilities/Hemosage/BloodShard</iconPath>
+		<abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+		<castTime>15</castTime>
+		<range>16.9</range>
+		<castSound>VPEH_BloodShard_Cast</castSound>
+		<targetingParameters>
+			<canTargetPawns>true</canTargetPawns>
+			<canTargetBuildings>true</canTargetBuildings>
+		</targetingParameters>
+		<power>12</power>
+		<targetMode>Pawn</targetMode>
+		<powerStatFactors>
+			<PsychicSensitivity>1</PsychicSensitivity>
+		</powerStatFactors>
+		<modExtensions>
+			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+				<path>VPEH_Hemosage</path>
+				<level>1</level>
+				<order>2</order>
+				<psyfocusCost>0.01</psyfocusCost>
+				<entropyGain>0</entropyGain>
+			</li>
+			<li Class="VFECore.Abilities.AbilityExtension_Projectile">
+				<projectile>VPEH_BloodShard</projectile>
+			</li>
+			<li Class="VPEHemosage.AbilityExtension_HemogenRequirement">
+				<hemogenRequirement>0.1</hemogenRequirement>
+			</li>
+			<li Class="VPEHemosage.AbilityExtension_HemogenCost">
+				<hemogenCost>0.01</hemogenCost>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+
+	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+		<defName>VPEH_BloodSpew</defName>
+		<label>blood spew</label>
+		<description>text.todo</description>
+		<iconPath>Abilities/Hemosage/BloodSpew</iconPath>
+		<abilityClass>VPEHemosage.Ability_BloodSpew</abilityClass>
+		<castTime>6</castTime>
+		<range>7.9</range>
+		<castSound>VPEH_BloodSpew_Cast</castSound>
+		<targetMode>Location</targetMode>
+		<modExtensions>
+			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+				<path>VPEH_Hemosage</path>
+				<level>1</level>
+				<order>3</order>
+				<psyfocusCost>0.04</psyfocusCost>
+				<entropyGain>0</entropyGain>
+			</li>
+			<li Class="VFECore.Abilities.AbilityExtension_Projectile">
+				<projectile>VPEH_BloodSpew</projectile>
+			</li>
+			<li Class="VPEHemosage.AbilityExtension_HemogenRequirement">
+				<hemogenRequirement>0.1</hemogenRequirement>
+			</li>
+			<li Class="VPEHemosage.AbilityExtension_HemogenCost">
+				<hemogenCost>0.1</hemogenCost>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+
+	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+		<defName>VPEH_CloseWounds</defName>
+		<label>close wounds</label>
+		<description>text.todo</description>
+		<iconPath>Abilities/Hemosage/CloseWounds</iconPath>
+		<abilityClass>VPEHemosage.Ability_CloseWounds</abilityClass>
+		<targetMode>Self</targetMode>
+		<castTime>180</castTime>
+		<castSound>VPEH_CloseWounds_Cast</castSound>
+		<modExtensions>
+			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+				<path>VPEH_Hemosage</path>
+				<level>2</level>
+				<order>1</order>
+				<psyfocusCost>0.2</psyfocusCost>
+				<entropyGain>0</entropyGain>
+				<prerequisites>
+					<li>VPEH_Bloodfocus</li>
+					<li>VPEH_BloodShard</li>
+				</prerequisites>
+			</li>
+			<li Class="VPEHemosage.AbilityExtension_HemogenRequirement">
+				<hemogenRequirement>0.1</hemogenRequirement>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+
+	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+		<defName>VPEH_Hemodrain</defName>
+		<label>hemodrain</label>
+		<description>text.todo</description>
+		<iconPath>Abilities/Hemosage/Hemodrain</iconPath>
+		<abilityClass>VPEHemosage.Ability_Hemodrain</abilityClass>
+		<castTime>15</castTime>
+		<range>6.9</range>
+		<castSound>VPEH_Hemodrain_Cast</castSound>
+		<castFleck>PsycastAreaEffect</castFleck>
+		<targetFlecks>
+			<li>PsycastAreaEffect</li>
+		</targetFlecks>
+		<targetMode>Pawn</targetMode>
+		<goodwillImpact>-100</goodwillImpact>
+		<modExtensions>
+			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+				<path>VPEH_Hemosage</path>
+				<level>2</level>
+				<order>2</order>
+				<psyfocusCost>0.06</psyfocusCost>
+				<entropyGain>0.2</entropyGain>
+				<prerequisites>
+					<li>VPEH_BloodShard</li>
+					<li>VPEH_BloodSpew</li>
+				</prerequisites>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+
+
+	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+		<defName>VPEH_CorpseExplosion</defName>
+		<label>corpse explosion</label>
+		<description>text.todo</description>
+		<iconPath>Abilities/Hemosage/CorpseExplosion</iconPath>
+		<abilityClass>VPEHemosage.Ability_CorpseExplosion</abilityClass>
+		<castTime>30</castTime>
+		<range>14.9</range>
+		<radius>1.9</radius>
+		<castSound>VPEH_CorpseExplosion_Cast</castSound>
+		<targetingParameters>
+			<canTargetLocations>False</canTargetLocations>
+			<canTargetSelf>False</canTargetSelf>
+			<canTargetAnimals>False</canTargetAnimals>
+			<canTargetPawns>False</canTargetPawns>
+			<canTargetHumans>False</canTargetHumans>
+			<canTargetItems>true</canTargetItems>
+			<thingCategory>Item</thingCategory>
+			<mapObjectTargetsMustBeAutoAttackable>False</mapObjectTargetsMustBeAutoAttackable>
+		</targetingParameters>
+		<reserveTargets>true</reserveTargets>
+		<modExtensions>
+			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+				<path>VPEH_Hemosage</path>
+				<level>3</level>
+				<order>1</order>
+				<psyfocusCost>0.02</psyfocusCost>
+				<entropyGain>0</entropyGain>
+				<prerequisites>
+					<li>VPEH_CloseWounds</li>
+				</prerequisites>
+			</li>
+			<li Class="VPEHemosage.AbilityExtension_HemogenRequirement">
+				<hemogenRequirement>0.1</hemogenRequirement>
+			</li>
+			<li Class="VPEHemosage.AbilityExtension_HemogenCost">
+				<hemogenCost>0.1</hemogenCost>
+			</li>
+			<li Class="VFECore.Abilities.AbilityExtension_ScreenShaker">
+				<intensity>2</intensity>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+
+	<VFECore.Abilities.AbilityDef ParentName="VPE_WordOfAbilityBase">
+		<defName>VPEH_WordofOffering</defName>
+		<label>word of offering</label>
+		<description>text.todo.</description>
+		<iconPath>Abilities/Hemosage/WordOfOffering</iconPath>
+		<abilityClass>VPEHemosage.Ability_WordofOffering</abilityClass>
+		<distanceToTarget>1.5</distanceToTarget>
+		<castTime>15</castTime>
+		<targetMode>Pawn</targetMode>
+		<goodwillImpact>-30</goodwillImpact>
+		<castSound>VPEH_WordOfOffering_Cast</castSound>
+		<modExtensions>
+			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+				<path>VPEH_Hemosage</path>
+				<level>3</level>
+				<order>1</order>
+				<psyfocusCost>0.04</psyfocusCost>
+				<entropyGain>0</entropyGain>
+				<prerequisites>
+					<li>VPEH_Hemodrain</li>
+				</prerequisites>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+
+	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+		<defName>VPEH_SanguineSpear</defName>
+		<label>sanguine spear</label>
+		<description>text.todo</description>
+		<iconPath>Abilities/Hemosage/SanguineSpear</iconPath>
+		<abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+		<requireLineOfSight>false</requireLineOfSight>
+		<castTime>45</castTime>
+		<range>42.9</range>
+		<radius>1.9</radius>
+		<targetMode>Location</targetMode>
+		<castSound>VPEH_SanguineSpear_Cast</castSound>
+		<modExtensions>
+			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+				<path>VPEH_Hemosage</path>
+				<level>4</level>
+				<order>1</order>
+				<psyfocusCost>0.01</psyfocusCost>
+				<entropyGain>0</entropyGain>
+				<prerequisites>
+					<li>VPEH_CorpseExplosion</li>
+				</prerequisites>
+			</li>
+			<li Class="VFECore.Abilities.AbilityExtension_Projectile">
+				<projectile>VPEH_SanguineSpear</projectile>
+			</li>
+			<li Class="VPEHemosage.AbilityExtension_HemogenRequirement">
+				<hemogenRequirement>0.1</hemogenRequirement>
+			</li>
+			<li Class="VPEHemosage.AbilityExtension_HemogenCost">
+				<hemogenCost>0.04</hemogenCost>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
 </Defs>
