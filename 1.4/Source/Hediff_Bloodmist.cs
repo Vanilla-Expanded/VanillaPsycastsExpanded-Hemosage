@@ -11,6 +11,7 @@ namespace VPEHemosage
         public int nextFleckSpawnTick;
         private static readonly IntRange TickInterval = new IntRange(5, 10);
         private static readonly Vector3 BreathOffset = new Vector3(0f, 0f, -0.04f);
+        public override bool ShouldRemove => base.ShouldRemove || pawn.IsHemogenic();
         public override void Tick()
         {
             base.Tick();

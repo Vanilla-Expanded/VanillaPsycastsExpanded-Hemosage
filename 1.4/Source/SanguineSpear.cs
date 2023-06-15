@@ -38,8 +38,11 @@ namespace VPEHemosage
             }
             foreach (var pawn in GenRadial.RadialDistinctThingsAround(this.Position, this.Map, 1.9f, true).OfType<Pawn>())
             {
-                var hediff = pawn.health.AddHediff(VPEH_DefOf.VPEH_Bloodmist);
-                hediff.TryGetComp<HediffComp_Disappears>().ticksToDisappear = GenDate.TicksPerHour * 2;
+                if (pawn.IsHemogenic() is false)
+                {
+                    var hediff = pawn.health.AddHediff(VPEH_DefOf.VPEH_Bloodmist);
+                    hediff.TryGetComp<HediffComp_Disappears>().ticksToDisappear = GenDate.TicksPerHour * 2;
+                }
             }
             for (var i = 0; i < 4; i++)
             {
