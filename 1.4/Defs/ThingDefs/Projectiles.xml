@@ -4,7 +4,6 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>VPEH_BloodShard</defName>
 		<label>blood shard</label>
-		<description>text.todo.</description>
 		<thingClass>VPEHemosage.BloodShard</thingClass>
 		<tickerType>Normal</tickerType>
 		<altitudeLayer>VisEffects</altitudeLayer>
@@ -47,7 +46,6 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>VPEH_SanguineSpear</defName>
 		<label>sanguine spear</label>
-		<description>text.todo</description>
 		<thingClass>VPEHemosage.SanguineSpear</thingClass>
 		<graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
 			<texPath>Effects/Hemosage/BloodLance</texPath>

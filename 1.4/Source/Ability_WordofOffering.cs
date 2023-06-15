@@ -25,7 +25,7 @@ namespace VPEHemosage
         {
             base.Cast(targets);
             var target = targets[0].Thing as Pawn;
-            HealthUtility.AdjustSeverity(target, HediffDefOf.BloodLoss, 0.6f);
+            HealthUtility.AdjustSeverity(target, HediffDefOf.BloodLoss, 0.55f);
             var hemogen = pawn.genes.GetFirstGeneOfType<Gene_Hemogen>();
             hemogen.ValuePercent += 0.2f;
         }

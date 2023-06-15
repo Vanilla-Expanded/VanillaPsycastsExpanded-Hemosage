@@ -30,7 +30,7 @@ namespace VPEHemosage
             mote.Attach(pawnTarget, this.pawn);
             mote.exactPosition = pawnTarget.DrawPos;
             GenSpawn.Spawn(mote, pawnTarget.Position, this.pawn.Map);
-            HealthUtility.AdjustSeverity(pawnTarget, HediffDefOf.BloodLoss, 0.6f);
+            HealthUtility.AdjustSeverity(pawnTarget, HediffDefOf.BloodLoss, 0.55f);
         }
     }
 }
