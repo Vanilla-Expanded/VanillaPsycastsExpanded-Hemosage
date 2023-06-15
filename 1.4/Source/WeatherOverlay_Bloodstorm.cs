@@ -33,7 +33,7 @@ namespace VPEHemosage
 
                 foreach (var pawn in map.mapPawns.AllPawnsSpawned)
                 {
-                    if (pawn.Position.Roofed(map) && pawn.genes != null)
+                    if (pawn.Position.Roofed(map) is false && pawn.genes != null)
                     {
                         var gene = pawn.genes.GetFirstGeneOfType<Gene_Hemogen>();
                         if (gene != null)
