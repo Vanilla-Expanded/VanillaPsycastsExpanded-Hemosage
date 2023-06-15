@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguagData>
-	<VPEH.DeathrestBuilding>Is a deathrest building</VPEH.DeathrestBuilding>
-	<VPEH.DeathrestBuildingsNearby>{0} deathrest buildings nearby</VPEH.DeathrestBuildingsNearby>
+	<VPEH.DeathrestBuilding>Is a deathrest building.</VPEH.DeathrestBuilding>
+	<VPEH.DeathrestBuildingsNearby>{0} deathrest buildings nearby.</VPEH.DeathrestBuildingsNearby>
 	<VPEH.HemogenTooLow>Hemogen is too low. Minimum {0} is required.</VPEH.HemogenTooLow>
-	<VPEH.MustBeNotDessicated>Corpse must be not dessicated</VPEH.MustBeNotDessicated>
+	<VPEH.MustBeNotDessicated>Corpse must be not dessicated.</VPEH.MustBeNotDessicated>
 	<VPEH.OnlyNonHemogenic>Cannot cast: target is hemogenic.</VPEH.OnlyNonHemogenic>
 </LanguagData>

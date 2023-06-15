@@ -4,7 +4,7 @@
 	<WeatherDef>
 		<defName>VPEH_Bloodstorm</defName>
 		<label>bloodstorm</label>
-		<description>text.todo.</description>
+		<description>Mystical downpour of blood, caused by forbidden hemosage psycast. While non-hemogenic individuals are choking on blood, sanguophages regenerate hemogen and can cast psycasts without worrying about psychic heat.</description>
 		<temperatureRange>0~100</temperatureRange>
 		<windSpeedFactor>1.5</windSpeedFactor>
 		<accuracyMultiplier>0.8</accuracyMultiplier>

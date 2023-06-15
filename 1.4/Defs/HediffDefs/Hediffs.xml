@@ -4,7 +4,7 @@
 	<HediffDef ParentName="PsycastHediffBase">
 		<defName>VPEH_Bloodfocus</defName>
 		<label>Bloodfocus</label>
-		<description>text.todo.</description>
+		<description>Rapidly regenerating psyfocus at the cost of hemogen.</description>
 		<hediffClass>VPEHemosage.Hediff_Bloodfocus</hediffClass>
 		<comps>
 			<li Class="HediffCompProperties_Effecter">
@@ -30,7 +30,7 @@
 	<HediffDef ParentName="PsycastHediffBase">
 		<defName>VPEH_BloodRite</defName>
 		<label>blood rite</label>
-		<description>text.todo</description>
+		<description>Psychic sensitivity is amplified by the current hemogen level.</description>
 		<hediffClass>VPEHemosage.Hediff_BloodRite</hediffClass>
 		<comps>
 			<li Class="VanillaPsycastsExpanded.HediffCompProperties_SpawnMote">

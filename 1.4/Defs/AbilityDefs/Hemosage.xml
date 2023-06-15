@@ -4,7 +4,7 @@
 	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
 		<defName>VPEH_Bloodfocus</defName>
 		<label>blood focus</label>
-		<description>text.todo</description>
+		<description>By forcibly manipulating the body’s stores of hemogen, the caster can enter a state of rapid meditation, regaining psyfocus at the cost of hemogen.</description>
 		<iconPath>Abilities/Hemosage/BloodFocus</iconPath>
 		<abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
 		<targetMode>Self</targetMode>
@@ -31,7 +31,7 @@
 	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
 		<defName>VPEH_BloodShard</defName>
 		<label>blood shard</label>
-		<description>text.todo</description>
+		<description>Launch a small amount of excess blood as a lethal projectile by forcibly expelling hemogen that has been solidified into a crystalline structure.</description>
 		<iconPath>Abilities/Hemosage/BloodShard</iconPath>
 		<abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
 		<castTime>15</castTime>
@@ -69,7 +69,7 @@
 	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
 		<defName>VPEH_BloodSpew</defName>
 		<label>blood spew</label>
-		<description>text.todo</description>
+		<description>Spew forth a fine mist of hemogen towards the targets, coating them in sticky, nauseating blood. Those affected are overcome with intense vomiting.</description>
 		<iconPath>Abilities/Hemosage/BloodSpew</iconPath>
 		<abilityClass>VPEHemosage.Ability_BloodSpew</abilityClass>
 		<castTime>6</castTime>
@@ -99,7 +99,7 @@
 	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
 		<defName>VPEH_CloseWounds</defName>
 		<label>close wounds</label>
-		<description>text.todo</description>
+		<description>Forcibly move excess blood to stop any ongoing bleeding. However, it does not actually heal.</description>
 		<iconPath>Abilities/Hemosage/CloseWounds</iconPath>
 		<abilityClass>VPEHemosage.Ability_CloseWounds</abilityClass>
 		<targetMode>Self</targetMode>
@@ -126,7 +126,7 @@
 	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
 		<defName>VPEH_Hemodrain</defName>
 		<label>hemodrain</label>
-		<description>text.todo</description>
+		<description>Forcibly extracts the blood of the target at a distance and converts it to hemogen. Practical but inefficient.</description>
 		<iconPath>Abilities/Hemosage/Hemodrain</iconPath>
 		<abilityClass>VPEHemosage.Ability_Hemodrain</abilityClass>
 		<castTime>15</castTime>
@@ -157,7 +157,7 @@
 	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
 		<defName>VPEH_CorpseExplosion</defName>
 		<label>corpse explosion</label>
-		<description>text.todo</description>
+		<description>Uses the caster’s hemogen to overstimulate the blood of a corpse, causing an explosion which deals no damage, but covers everyone in thick bloodmist. Those affected are overcome with intense vomiting.</description>
 		<iconPath>Abilities/Hemosage/CorpseExplosion</iconPath>
 		<abilityClass>VPEHemosage.Ability_CorpseExplosion</abilityClass>
 		<castTime>30</castTime>
@@ -201,7 +201,7 @@
 	<VFECore.Abilities.AbilityDef ParentName="VPE_WordOfAbilityBase">
 		<defName>VPEH_WordofOffering</defName>
 		<label>word of offering</label>
-		<description>text.todo.</description>
+		<description>Convinces the target to offer their blood to the caster. Can be used on visitors or even during combat.</description>
 		<iconPath>Abilities/Hemosage/WordOfOffering</iconPath>
 		<abilityClass>VPEHemosage.Ability_WordofOffering</abilityClass>
 		<distanceToTarget>1.5</distanceToTarget>
@@ -226,7 +226,7 @@
 	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
 		<defName>VPEH_SanguineSpear</defName>
 		<label>sanguine spear</label>
-		<description>text.todo</description>
+		<description>Launches a pressurized spear of blood over to the target, damaging the target and creating a bloodmist explosion. Damage depends on the caster's hemogen level.</description>
 		<iconPath>Abilities/Hemosage/SanguineSpear</iconPath>
 		<abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
 		<requireLineOfSight>false</requireLineOfSight>
@@ -261,7 +261,7 @@
 	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
 		<defName>VPEH_BloodRite</defName>
 		<label>blood rite</label>
-		<description>text.todo</description>
+		<description>Creates a mote of hemogen that follows the caster, acting as an amplifier for psychic sensitivity based on the caster’s current hemogen level.</description>
 		<iconPath>Abilities/Hemosage/BloodRite</iconPath>
 		<abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
 		<targetMode>Self</targetMode>
@@ -294,7 +294,7 @@
 	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
 		<defName>VPEH_Bloodstorm</defName>
 		<label>bloodstorm</label>
-		<description>text.todo</description>
+		<description>Creates a downpour of blood, inflicting non-hemogenic individuals with bloodmist, causing intense vomiting. Sanguophages instead regenerate hemogen, and don’t gain psychic heat when casting any psycasts under the effects of bloodstorm.</description>
 		<iconPath>Abilities/Hemosage/Bloodstorm</iconPath>
 		<abilityClass>VPEHemosage.Ability_Bloodstorm</abilityClass>
 		<targetMode>Self</targetMode>
