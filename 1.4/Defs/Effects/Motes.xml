@@ -50,4 +50,20 @@
 			<drawSize>1.2</drawSize>
 		</graphicData>
 	</ThingDef>
+	
+	<ThingDef ParentName="MoteBase">
+		<defName>VPEH_BloodRite</defName>
+		<thingClass>VanillaPsycastsExpanded.MoteAttachedMovingAround</thingClass>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<drawOffscreen>true</drawOffscreen>
+		<graphicData>
+			<texPath>Effects/Hemosage/BloodBall/BloodBall</texPath>
+			<drawSize>0.7</drawSize>
+		</graphicData>
+		<mote>
+			<solidTime>999999</solidTime>
+			<needsMaintenance>true</needsMaintenance>
+		</mote>
+	</ThingDef>
+
 </Defs>

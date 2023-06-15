@@ -27,4 +27,16 @@
 		</comps>
 	</HediffDef>
 
+	<HediffDef ParentName="PsycastHediffBase">
+		<defName>VPEH_BloodRite</defName>
+		<label>blood rite</label>
+		<description>text.todo</description>
+		<hediffClass>VPEHemosage.Hediff_BloodRite</hediffClass>
+		<comps>
+			<li Class="VanillaPsycastsExpanded.HediffCompProperties_SpawnMote">
+				<moteDef>VPEH_BloodRite</moteDef>
+			</li>
+		</comps>
+	</HediffDef>
+
 </Defs>

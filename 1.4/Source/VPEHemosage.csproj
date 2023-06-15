@@ -72,7 +72,9 @@
   <ItemGroup>
     <Compile Include="AbilityExtension_HemogenRequirement.cs" />
     <Compile Include="AbilityExtension_HemogenCost.cs" />
+    <Compile Include="AbilityExtension_Psycast_GetEntropyUsedByPawn_Patch.cs" />
     <Compile Include="Ability_BloodSpew.cs" />
+    <Compile Include="Ability_Bloodstorm.cs" />
     <Compile Include="Ability_CloseWounds.cs" />
     <Compile Include="Ability_CorpseExplosion.cs" />
     <Compile Include="Ability_Hemodrain.cs" />
@@ -80,15 +82,18 @@
     <Compile Include="Bloodmist.cs" />
     <Compile Include="BloodShard.cs" />
     <Compile Include="BloodSpew.cs" />
+    <Compile Include="CachedResult.cs" />
     <Compile Include="FocusStrengthOffset_DeathrestBuilding.cs" />
     <Compile Include="Hediff_Bloodfocus.cs" />
     <Compile Include="Hediff_Bloodmist.cs" />
+    <Compile Include="Hediff_BloodRite.cs" />
     <Compile Include="MeditationFocusAutopatcher.cs" />
     <Compile Include="SanguineSpear.cs" />
     <Compile Include="StatPart_NearbyDeathrest.cs" />
     <Compile Include="VPEHemosageMod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VPEH_DefOf.cs" />
+    <Compile Include="WeatherOverlay_Bloodstorm.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
