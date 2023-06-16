@@ -73,6 +73,7 @@
     <Compile Include="AbilityExtension_HemogenRequirement.cs" />
     <Compile Include="AbilityExtension_HemogenCost.cs" />
     <Compile Include="AbilityExtension_Psycast_GetEntropyUsedByPawn_Patch.cs" />
+    <Compile Include="Ability_Bloodfocus.cs" />
     <Compile Include="Ability_BloodSpew.cs" />
     <Compile Include="Ability_Bloodstorm.cs" />
     <Compile Include="Ability_CloseWounds.cs" />

@@ -11,7 +11,7 @@ namespace VPEHemosage
         public override bool IsEnabledForPawn(Ability ability, out string reason)
         {
             var hemogen = ability.pawn.genes.GetFirstGeneOfType<Gene_Hemogen>();
-            if (hemogen.Resource.ValuePercent <= hemogenRequirement)
+            if (hemogen.Resource.Value <= hemogenRequirement)
             {
                 reason = "VPEH.HemogenTooLow".Translate((int)(hemogenRequirement * 100));
                 return false;

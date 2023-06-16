@@ -15,7 +15,7 @@ namespace VPEHemosage
             {
                 var pawn = this.launcher as Pawn;
                 var hemogen = pawn.genes.GetFirstGeneOfType<Gene_Hemogen>();
-                return (int)(hemogen.ValuePercent * 100);
+                return (int)(hemogen.Value * 100);
             }
         }
 
@@ -38,7 +38,7 @@ namespace VPEHemosage
             }
             foreach (var pawn in GenRadial.RadialDistinctThingsAround(this.Position, this.Map, 1.9f, true).OfType<Pawn>())
             {
-                if (pawn.IsHemogenic() is false)
+                if (pawn.IsHemogenic() is false && pawn.RaceProps.Humanlike)
                 {
                     var hediff = pawn.health.AddHediff(VPEH_DefOf.VPEH_Bloodmist);
                     hediff.TryGetComp<HediffComp_Disappears>().ticksToDisappear = GenDate.TicksPerHour * 2;

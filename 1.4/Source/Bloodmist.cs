@@ -10,7 +10,7 @@ namespace VPEHemosage
         public override void Destroy(DestroyMode mode = DestroyMode.Vanish)
         {
             var hemogen = ability.pawn.genes.GetFirstGeneOfType<Gene_Hemogen>();
-            hemogen.ValuePercent += 0.2f;
+            hemogen.Value += 0.2f;
             base.Destroy(mode);
         }
     }

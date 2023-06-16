@@ -6,7 +6,7 @@
 		<label>blood focus</label>
 		<description>By forcibly manipulating the body’s stores of hemogen, the caster can enter a state of rapid meditation, regaining psyfocus at the cost of hemogen.</description>
 		<iconPath>Abilities/Hemosage/BloodFocus</iconPath>
-		<abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
+		<abilityClass>VPEHemosage.Ability_Bloodfocus</abilityClass>
 		<targetMode>Self</targetMode>
 		<castFleck>PsycastAreaEffect</castFleck>
 		<castTime>180</castTime>
@@ -61,7 +61,7 @@
 				<hemogenRequirement>0.1</hemogenRequirement>
 			</li>
 			<li Class="VPEHemosage.AbilityExtension_HemogenCost">
-				<hemogenCost>0.01</hemogenCost>
+				<hemogenCost>0.02</hemogenCost>
 			</li>
 		</modExtensions>
 	</VFECore.Abilities.AbilityDef>
@@ -162,7 +162,7 @@
 		<abilityClass>VPEHemosage.Ability_CorpseExplosion</abilityClass>
 		<castTime>30</castTime>
 		<range>14.9</range>
-		<radius>1.9</radius>
+		<radius>2.9</radius>
 		<castSound>VPEH_CorpseExplosion_Cast</castSound>
 		<targetingParameters>
 			<canTargetLocations>False</canTargetLocations>
@@ -286,7 +286,7 @@
 				<hemogenRequirement>0.1</hemogenRequirement>
 			</li>
 			<li Class="VPEHemosage.AbilityExtension_HemogenCost">
-				<hemogenCost>0.05</hemogenCost>
+				<hemogenCost>0.10</hemogenCost>
 			</li>
 		</modExtensions>
 	</VFECore.Abilities.AbilityDef>
@@ -307,6 +307,7 @@
 		<warmupSound>Psycast_Neuroquake_CastLoop</warmupSound>
 		<warmupPreEndSound>Psycast_Neuroquake_CastEnd</warmupPreEndSound>
 		<warmupPreEndSoundTicks>300</warmupPreEndSoundTicks>
+	    <cooldownTime>60000</cooldownTime>
 		<modExtensions>
 			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
 				<path>VPEH_Hemosage</path>

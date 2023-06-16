@@ -5,4 +5,6 @@
 	<VPEH.HemogenTooLow>Hemogen is too low. Minimum {0} is required.</VPEH.HemogenTooLow>
 	<VPEH.MustBeNotDessicated>Corpse must be not dessicated.</VPEH.MustBeNotDessicated>
 	<VPEH.OnlyNonHemogenic>Cannot cast: target is hemogenic.</VPEH.OnlyNonHemogenic>
+    <VPEH.CancelBloodfocus>Cancel Bloodfocus</VPEH.CancelBloodfocus>
+    <VPEH.CancelBloodfocusDesc>Click to cancel Bloodfocus on the caster.</VPEH.CancelBloodfocusDesc>
 </LanguagData>

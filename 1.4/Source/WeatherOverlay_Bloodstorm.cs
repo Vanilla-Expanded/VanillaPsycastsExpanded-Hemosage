@@ -33,17 +33,20 @@ namespace VPEHemosage
 
                 foreach (var pawn in map.mapPawns.AllPawnsSpawned)
                 {
-                    if (pawn.Position.Roofed(map) is false && pawn.genes != null)
+                    if (pawn.genes != null && pawn.Position.Roofed(map) is false)
                     {
                         var gene = pawn.genes.GetFirstGeneOfType<Gene_Hemogen>();
                         if (gene != null)
                         {
-                            gene.ValuePercent += 0.01f / 60f;
+                            gene.Value += 0.01f / 60f;
                             pawn.needs?.mood?.thoughts?.memories?.TryGainMemory(ThoughtMaker.MakeThought(VPEH_DefOf.VPEH_SoakedInBlood, 1));
                         }
                         else
                         {
-                            pawn.health.AddHediff(VPEH_DefOf.VPEH_Bloodmist);
+                            if (pawn.health.hediffSet.GetFirstHediffOfDef(VPEH_DefOf.VPEH_Bloodmist) is null)
+                            {
+                                pawn.health.AddHediff(VPEH_DefOf.VPEH_Bloodmist);
+                            }
                             AffectGoodwill(pawn.HomeFaction, pawn);
                             pawn.needs?.mood?.thoughts?.memories?.TryGainMemory(ThoughtMaker.MakeThought(VPEH_DefOf.VPEH_SoakedInBlood, 0));
                         }

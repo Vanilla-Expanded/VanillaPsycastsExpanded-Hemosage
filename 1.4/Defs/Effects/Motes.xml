@@ -25,7 +25,7 @@
 			<texPath>Effects/Hemosage/CorpseExplosion</texPath>
 			<ticksPerFrame>3</ticksPerFrame>
 			<graphicClass>VanillaPsycastsExpanded.Graphics.Graphic_AnimatedMote</graphicClass>
-			<drawSize>(3, 3)</drawSize>
+			<drawSize>(4, 4)</drawSize>
 		</graphicData>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<mote>
@@ -47,7 +47,7 @@
                 <_distortionIntensity>0.15</_distortionIntensity>
 				<_brightnessMultiplier>1.15</_brightnessMultiplier>
 			</shaderParameters>
-			<drawSize>1.2</drawSize>
+			<drawSize>1.9</drawSize>
 		</graphicData>
 	</ThingDef>
 	

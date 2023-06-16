@@ -50,7 +50,7 @@ namespace VPEHemosage
             }
             foreach (var pawn in GenRadial.RadialDistinctThingsAround(target.Position, target.Map, this.def.radius, true).OfType<Pawn>())
             {
-                if (pawn.IsHemogenic() is false)
+                if (pawn.IsHemogenic() is false && pawn.RaceProps.Humanlike)
                 {
                     pawn.health.AddHediff(VPEH_DefOf.VPEH_Bloodmist);
                 }

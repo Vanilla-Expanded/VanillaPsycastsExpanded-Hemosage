@@ -9,6 +9,7 @@ namespace VPEHemosage
     {
         public static MeditationFocusDef VPEH_Deathrest;
         public static HediffDef VPEH_Bloodmist;
+        public static HediffDef VPEH_Bloodfocus;
         public static ThingDef VPEH_BloodmistMote;
         public static ThingDef VPEH_CorpseExplosion;
         public static ThingDef VPE_PsycastAreaEffect_CorpseExplosion;

@@ -18,13 +18,16 @@ namespace VPEHemosage
             if (this.pawn.IsHashIntervalTick(tickInterval))
             {
                 tickInterval = Rand.RangeInclusive(120, 180);
-                Ability_CorpseExplosion.ThrowBloodSmoke(pawn.DrawPos, pawn.Map, 2f);
-                if (pawn.CurJobDef != JobDefOf.Vomit)
+                if (pawn.Map != null)
                 {
-                    pawn.jobs.StartJob(JobMaker.MakeJob(JobDefOf.Vomit), JobCondition.InterruptForced, null, resumeCurJobAfterwards: true);
+                    Ability_CorpseExplosion.ThrowBloodSmoke(pawn.DrawPos, pawn.Map, 2f);
+                    if (pawn.CurJobDef != JobDefOf.Vomit)
+                    {
+                        pawn.jobs.StartJob(JobMaker.MakeJob(JobDefOf.Vomit), JobCondition.InterruptForced, null, resumeCurJobAfterwards: true);
+                    }
                 }
             }
-            if (Find.TickManager.TicksGame >= nextFleckSpawnTick && this.pawn.Map != null)
+            if (Find.TickManager.TicksGame >= nextFleckSpawnTick && pawn.Map != null)
             {
                 ThrowFleck(pawn.Drawer.DrawPos + pawn.Drawer.renderer.BaseHeadOffsetAt(pawn.Rotation) + pawn.Rotation.FacingCell.ToVector3() * 0.21f + BreathOffset
                     , pawn.Map, pawn.Rotation.AsAngle, pawn.Drawer.tweener.LastTickTweenedVelocity);

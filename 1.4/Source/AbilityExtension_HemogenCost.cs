@@ -1,5 +1,7 @@
 ﻿using RimWorld;
 using RimWorld.Planet;
+using UnityEngine;
+using Verse;
 using VFECore.Abilities;
 using Ability = VFECore.Abilities.Ability;
 
@@ -12,7 +14,12 @@ namespace VPEHemosage
         {
             base.Cast(targets, ability);
             var hemogen = ability.pawn.genes.GetFirstGeneOfType<Gene_Hemogen>();
-            hemogen.Resource.ValuePercent -= hemogenCost;
+            hemogen.Resource.Value -= hemogenCost;
+        }
+
+        public override string GetDescription(Ability ability)
+        {
+            return (("AbilityHemogenCost".Translate() + ": ") + Mathf.RoundToInt(hemogenCost * 100f)).ToString().Colorize(Color.cyan);
         }
     }
 }

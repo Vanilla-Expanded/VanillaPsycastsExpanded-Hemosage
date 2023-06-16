@@ -46,7 +46,7 @@ namespace VPEHemosage
                             {
                                 if (IsDamagable(list[num]))
                                 {
-                                    if (list[num] is Pawn pawn && pawn.IsHemogenic() is false)
+                                    if (list[num] is Pawn pawn && pawn.IsHemogenic() is false && pawn.RaceProps.Humanlike)
                                     {
                                         pawn.health.AddHediff(VPEH_DefOf.VPEH_Bloodmist);
                                     }

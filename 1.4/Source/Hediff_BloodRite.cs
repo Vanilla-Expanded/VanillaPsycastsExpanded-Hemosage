@@ -25,7 +25,7 @@ namespace VPEHemosage
                 {
                     hemogen = pawn.genes.GetFirstGeneOfType<Gene_Hemogen>();
                 }
-                statModifier.value = hemogen.ValuePercent;
+                statModifier.value = hemogen.Value;
                 return curStage;
             }
         }

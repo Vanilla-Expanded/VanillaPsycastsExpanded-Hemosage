@@ -16,11 +16,11 @@ namespace VPEHemosage
             var hemogen = pawn.genes.GetFirstGeneOfType<Gene_Hemogen>();
             foreach (var injury in injuries)
             {
-                if (hemogen.ValuePercent > 0.11f)
+                if (hemogen.Value > 0.11f)
                 {
                     injury.ageTicks = injury.AgeTicksToStopBleeding;
                     pawn.health.Notify_HediffChanged(injury);
-                    hemogen.ValuePercent -= 0.01f;
+                    hemogen.Value -= 0.01f;
                 }
             }
         }
