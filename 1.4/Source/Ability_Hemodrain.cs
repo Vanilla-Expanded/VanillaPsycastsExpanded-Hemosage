@@ -10,7 +10,7 @@ namespace VPEHemosage
     {
         public override bool ValidateTarget(LocalTargetInfo target, bool showMessages = true)
         {
-            if (target.Thing is Pawn pawn && pawn.genes.HasGene(GeneDefOf.Hemogenic))
+            if (target.Thing is Pawn pawn && pawn.IsHemogenic())
             {
                 if (showMessages)
                 {

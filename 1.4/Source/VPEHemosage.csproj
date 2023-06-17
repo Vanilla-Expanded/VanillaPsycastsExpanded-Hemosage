@@ -86,6 +86,7 @@
     <Compile Include="BloodSpew.cs" />
     <Compile Include="CachedResult.cs" />
     <Compile Include="FocusStrengthOffset_DeathrestBuilding.cs" />
+    <Compile Include="GeneGizmo_ResourceHemogen_GizmoOnGUI_Patch.cs" />
     <Compile Include="Hediff_Bloodfocus.cs" />
     <Compile Include="Hediff_Bloodmist.cs" />
     <Compile Include="Hediff_BloodRite.cs" />
