@@ -61,7 +61,7 @@
 				<hemogenRequirement>0.1</hemogenRequirement>
 			</li>
 			<li Class="VPEHemosage.AbilityExtension_HemogenCost">
-				<hemogenCost>0.02</hemogenCost>
+				<hemogenCost>0.04</hemogenCost>
 			</li>
 		</modExtensions>
 	</VFECore.Abilities.AbilityDef>
@@ -91,7 +91,7 @@
 				<hemogenRequirement>0.1</hemogenRequirement>
 			</li>
 			<li Class="VPEHemosage.AbilityExtension_HemogenCost">
-				<hemogenCost>0.1</hemogenCost>
+				<hemogenCost>0.2</hemogenCost>
 			</li>
 		</modExtensions>
 	</VFECore.Abilities.AbilityDef>
@@ -143,8 +143,8 @@
 				<path>VPEH_Hemosage</path>
 				<level>2</level>
 				<order>2</order>
-				<psyfocusCost>0.06</psyfocusCost>
-				<entropyGain>20</entropyGain>
+				<psyfocusCost>0.08</psyfocusCost>
+				<entropyGain>40</entropyGain>
 				<prerequisites>
 					<li>VPEH_BloodShard</li>
 					<li>VPEH_BloodSpew</li>
@@ -180,7 +180,7 @@
 				<path>VPEH_Hemosage</path>
 				<level>3</level>
 				<order>1</order>
-				<psyfocusCost>0.02</psyfocusCost>
+				<psyfocusCost>0.04</psyfocusCost>
 				<entropyGain>0</entropyGain>
 				<prerequisites>
 					<li>VPEH_CloseWounds</li>
@@ -190,7 +190,7 @@
 				<hemogenRequirement>0.1</hemogenRequirement>
 			</li>
 			<li Class="VPEHemosage.AbilityExtension_HemogenCost">
-				<hemogenCost>0.1</hemogenCost>
+				<hemogenCost>0.16</hemogenCost>
 			</li>
 			<li Class="VFECore.Abilities.AbilityExtension_ScreenShaker">
 				<intensity>2</intensity>
@@ -214,7 +214,7 @@
 				<path>VPEH_Hemosage</path>
 				<level>3</level>
 				<order>1</order>
-				<psyfocusCost>0.04</psyfocusCost>
+				<psyfocusCost>0.1</psyfocusCost>
 				<entropyGain>0</entropyGain>
 				<prerequisites>
 					<li>VPEH_Hemodrain</li>
@@ -231,7 +231,7 @@
 		<abilityClass>VPEHemosage.Ability_SanguineSpear</abilityClass>
 		<requireLineOfSight>false</requireLineOfSight>
 		<castTime>45</castTime>
-		<range>42.9</range>
+		<range>52.9</range>
 		<radius>1.9</radius>
 		<targetMode>Location</targetMode>
 		<castSound>VPEH_SanguineSpear_Cast</castSound>
@@ -240,7 +240,7 @@
 				<path>VPEH_Hemosage</path>
 				<level>4</level>
 				<order>1</order>
-				<psyfocusCost>0.01</psyfocusCost>
+				<psyfocusCost>0.04</psyfocusCost>
 				<entropyGain>0</entropyGain>
 				<prerequisites>
 					<li>VPEH_CorpseExplosion</li>
@@ -253,7 +253,7 @@
 				<hemogenRequirement>0.1</hemogenRequirement>
 			</li>
 			<li Class="VPEHemosage.AbilityExtension_HemogenCost">
-				<hemogenCost>0.04</hemogenCost>
+				<hemogenCost>0.1</hemogenCost>
 			</li>
 		</modExtensions>
 	</VFECore.Abilities.AbilityDef>
