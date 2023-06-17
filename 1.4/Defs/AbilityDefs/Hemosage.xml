@@ -144,7 +144,7 @@
 				<level>2</level>
 				<order>2</order>
 				<psyfocusCost>0.06</psyfocusCost>
-				<entropyGain>0.2</entropyGain>
+				<entropyGain>20</entropyGain>
 				<prerequisites>
 					<li>VPEH_BloodShard</li>
 					<li>VPEH_BloodSpew</li>

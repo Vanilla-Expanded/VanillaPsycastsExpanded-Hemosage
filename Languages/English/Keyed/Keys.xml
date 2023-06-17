@@ -7,4 +7,5 @@
 	<VPEH.OnlyNonHemogenic>Cannot cast: target is hemogenic.</VPEH.OnlyNonHemogenic>
     <VPEH.CancelBloodfocus>Cancel Bloodfocus</VPEH.CancelBloodfocus>
     <VPEH.CancelBloodfocusDesc>Click to cancel Bloodfocus on the caster.</VPEH.CancelBloodfocusDesc>
+	<VPEH.HemogenLetter>H</VPEH.HemogenLetter>
 </LanguagData>

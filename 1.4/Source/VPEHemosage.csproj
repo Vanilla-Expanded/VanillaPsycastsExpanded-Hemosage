@@ -85,6 +85,7 @@
     <Compile Include="BloodShard.cs" />
     <Compile Include="BloodSpew.cs" />
     <Compile Include="CachedResult.cs" />
+    <Compile Include="Command_Ability_Psycast_TopRightLabel_Patch.cs" />
     <Compile Include="FocusStrengthOffset_DeathrestBuilding.cs" />
     <Compile Include="GeneGizmo_ResourceHemogen_GizmoOnGUI_Patch.cs" />
     <Compile Include="Hediff_Bloodfocus.cs" />
