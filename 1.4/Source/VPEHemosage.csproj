@@ -79,6 +79,7 @@
     <Compile Include="Ability_CloseWounds.cs" />
     <Compile Include="Ability_CorpseExplosion.cs" />
     <Compile Include="Ability_Hemodrain.cs" />
+    <Compile Include="Ability_SanguineSpear.cs" />
     <Compile Include="Ability_WordofOffering.cs" />
     <Compile Include="Bloodmist.cs" />
     <Compile Include="BloodShard.cs" />

@@ -228,7 +228,7 @@
 		<label>sanguine spear</label>
 		<description>Launches a pressurized spear of blood over to the target, damaging the target and creating a bloodmist explosion. Damage depends on the caster's hemogen level.</description>
 		<iconPath>Abilities/Hemosage/SanguineSpear</iconPath>
-		<abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+		<abilityClass>VPEHemosage.Ability_SanguineSpear</abilityClass>
 		<requireLineOfSight>false</requireLineOfSight>
 		<castTime>45</castTime>
 		<range>42.9</range>
