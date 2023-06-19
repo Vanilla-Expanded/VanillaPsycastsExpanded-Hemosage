@@ -11,18 +11,22 @@ namespace VPEHemosage
     {
         public static void Postfix(ref string __result, Command_Ability_Psycast __instance)
         {
-            var extension = __instance.ability.def.GetModExtension<AbilityExtension_HemogenCost>();
-            if (extension != null && extension.hemogenCost > float.Epsilon)
+            if (__result != null)
             {
-                if (__result.Length > 1)
+                var extension = __instance.ability.def.GetModExtension<AbilityExtension_HemogenCost>();
+                if (extension != null && extension.hemogenCost > float.Epsilon)
                 {
-                    __result += "\n" + "VPEH.HemogenLetter".Translate() + ": " + Mathf.RoundToInt(extension.hemogenCost * 100f);
-                }
-                else
-                {
-                    __result += "VPEH.HemogenLetter".Translate() + ": " + Mathf.RoundToInt(extension.hemogenCost * 100f);
+                    if (__result.Length > 1)
+                    {
+                        __result += "\n" + "VPEH.HemogenLetter".Translate() + ": " + Mathf.RoundToInt(extension.hemogenCost * 100f);
+                    }
+                    else
+                    {
+                        __result += "VPEH.HemogenLetter".Translate() + ": " + Mathf.RoundToInt(extension.hemogenCost * 100f);
+                    }
                 }
             }
+
         }
     }
 }
