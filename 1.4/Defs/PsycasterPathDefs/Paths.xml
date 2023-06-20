@@ -11,6 +11,8 @@
     <tooltip>Hemosages are powerful, elder psycasters that use their connection with an engine of evil and their bloody curse to inflict pain and manipulate matter in vile, wicked ways. Relying on hemogen, they can drain and leech life from everyone around them, instilling incredible pain and even worse nightmares. Only those that have access to the power of hemogen can become a true hemosage.</tooltip>
 	<requiredGene>Hemogenic</requiredGene>
 	<lockedReason>Hemogenic only</lockedReason>
+	<ignoreLockRestrictionsForNeurotrainers>False</ignoreLockRestrictionsForNeurotrainers>
+	<ensureLockRequirement>True</ensureLockRequirement>
   </VanillaPsycastsExpanded.PsycasterPathDef>
 
 </Defs>
