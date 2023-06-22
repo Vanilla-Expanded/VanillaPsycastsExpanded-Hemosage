@@ -150,6 +150,7 @@
 					<li>VPEH_BloodSpew</li>
 				</prerequisites>
 			</li>
+			<li Class="VPEHemosage.AbilityExtension_OnlyNonHemogenicHumanlikes"></li>
 		</modExtensions>
 	</VFECore.Abilities.AbilityDef>
 
@@ -220,6 +221,7 @@
 					<li>VPEH_Hemodrain</li>
 				</prerequisites>
 			</li>
+			<li Class="VPEHemosage.AbilityExtension_OnlyNonHemogenicHumanlikes"></li>
 		</modExtensions>
 	</VFECore.Abilities.AbilityDef>
 

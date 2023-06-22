@@ -8,18 +8,6 @@ namespace VPEHemosage
 {
     public class Ability_Hemodrain : Ability
     {
-        public override bool ValidateTarget(LocalTargetInfo target, bool showMessages = true)
-        {
-            if (target.Thing is Pawn pawn && pawn.IsHemogenic())
-            {
-                if (showMessages)
-                {
-                    Messages.Message("VPEH.OnlyNonHemogenic".Translate(), pawn, MessageTypeDefOf.CautionInput);
-                }
-                return false;
-            }
-            return base.ValidateTarget(target, showMessages);
-        }
         public override void Cast(params GlobalTargetInfo[] targets)
         {
             base.Cast(targets);

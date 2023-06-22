@@ -8,4 +8,5 @@
     <VPEH.CancelBloodfocus>Cancel Bloodfocus</VPEH.CancelBloodfocus>
     <VPEH.CancelBloodfocusDesc>Click to cancel Bloodfocus on the caster.</VPEH.CancelBloodfocusDesc>
 	<VPEH.HemogenLetter>H</VPEH.HemogenLetter>
+	<VPEH.OnlyHumanlikes>Cannot cast: target is not human</VPEH.OnlyHumanlikes>
 </LanguagData>
