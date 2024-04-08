@@ -1,0 +1,496 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\vanillapsycastsexpanded-hemosage\\1.5\\source\\abilityextension_onlynonhemogenichumanlikes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:abilityextension_onlynonhemogenichumanlikes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\ability_wordofoffering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:ability_wordofoffering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\ability_hemodrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:ability_hemodrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\command_ability_psycast_toprightlabel_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:command_ability_psycast_toprightlabel_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\genegizmo_resourcehemogen_gizmoongui_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:genegizmo_resourcehemogen_gizmoongui_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\hediff_bloodrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:hediff_bloodrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\weatheroverlay_bloodstorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:weatheroverlay_bloodstorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\hediff_bloodfocus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:hediff_bloodfocus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\bloodmist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:bloodmist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\ability_closewounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:ability_closewounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\ability_corpseexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:ability_corpseexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\ability_sanguinespear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:ability_sanguinespear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\ability_bloodfocus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:ability_bloodfocus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\sanguinespear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:sanguinespear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\bloodspew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:bloodspew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\abilityextension_hemogenrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:abilityextension_hemogenrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\abilityextension_hemogencost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:abilityextension_hemogencost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\vpeh_defof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:vpeh_defof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\hediff_bloodmist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:hediff_bloodmist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\abilityextension_psycast_getentropyusedbypawn_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:abilityextension_psycast_getentropyusedbypawn_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\ability_bloodstorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:ability_bloodstorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\ability_bloodspew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:ability_bloodspew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\vpehemosagemod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:vpehemosagemod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\cachedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:cachedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\bloodshard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:bloodshard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\statpart_nearbydeathrest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:statpart_nearbydeathrest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\focusstrengthoffset_deathrestbuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|VPEHemosage.csproj|solutionrelative:focusstrengthoffset_deathrestbuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AbilityExtension_OnlyNonHemogenicHumanlikes.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\AbilityExtension_OnlyNonHemogenicHumanlikes.cs",
+              "RelativeDocumentMoniker": "AbilityExtension_OnlyNonHemogenicHumanlikes.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\AbilityExtension_OnlyNonHemogenicHumanlikes.cs",
+              "RelativeToolTip": "AbilityExtension_OnlyNonHemogenicHumanlikes.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Command_Ability_Psycast_TopRightLabel_Patch.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Command_Ability_Psycast_TopRightLabel_Patch.cs",
+              "RelativeDocumentMoniker": "Command_Ability_Psycast_TopRightLabel_Patch.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Command_Ability_Psycast_TopRightLabel_Patch.cs",
+              "RelativeToolTip": "Command_Ability_Psycast_TopRightLabel_Patch.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAqwBsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Ability_CloseWounds.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Ability_CloseWounds.cs",
+              "RelativeDocumentMoniker": "Ability_CloseWounds.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Ability_CloseWounds.cs",
+              "RelativeToolTip": "Ability_CloseWounds.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAkwBYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Hediff_Bloodfocus.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Hediff_Bloodfocus.cs",
+              "RelativeDocumentMoniker": "Hediff_Bloodfocus.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Hediff_Bloodfocus.cs",
+              "RelativeToolTip": "Hediff_Bloodfocus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Bloodmist.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Bloodmist.cs",
+              "RelativeDocumentMoniker": "Bloodmist.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Bloodmist.cs",
+              "RelativeToolTip": "Bloodmist.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ability_WordofOffering.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Ability_WordofOffering.cs",
+              "RelativeDocumentMoniker": "Ability_WordofOffering.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Ability_WordofOffering.cs",
+              "RelativeToolTip": "Ability_WordofOffering.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Utils.cs",
+              "RelativeDocumentMoniker": "Utils.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Utils.cs",
+              "RelativeToolTip": "Utils.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherOverlay_Bloodstorm.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\WeatherOverlay_Bloodstorm.cs",
+              "RelativeDocumentMoniker": "WeatherOverlay_Bloodstorm.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\WeatherOverlay_Bloodstorm.cs",
+              "RelativeToolTip": "WeatherOverlay_Bloodstorm.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAkwCgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ability_Hemodrain.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Ability_Hemodrain.cs",
+              "RelativeDocumentMoniker": "Ability_Hemodrain.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Ability_Hemodrain.cs",
+              "RelativeToolTip": "Ability_Hemodrain.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GeneGizmo_ResourceHemogen_GizmoOnGUI_Patch.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\GeneGizmo_ResourceHemogen_GizmoOnGUI_Patch.cs",
+              "RelativeDocumentMoniker": "GeneGizmo_ResourceHemogen_GizmoOnGUI_Patch.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\GeneGizmo_ResourceHemogen_GizmoOnGUI_Patch.cs",
+              "RelativeToolTip": "GeneGizmo_ResourceHemogen_GizmoOnGUI_Patch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Hediff_BloodRite.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Hediff_BloodRite.cs",
+              "RelativeDocumentMoniker": "Hediff_BloodRite.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Hediff_BloodRite.cs",
+              "RelativeToolTip": "Hediff_BloodRite.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAzwBsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Ability_CorpseExplosion.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Ability_CorpseExplosion.cs",
+              "RelativeDocumentMoniker": "Ability_CorpseExplosion.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Ability_CorpseExplosion.cs",
+              "RelativeToolTip": "Ability_CorpseExplosion.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Ability_SanguineSpear.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Ability_SanguineSpear.cs",
+              "RelativeDocumentMoniker": "Ability_SanguineSpear.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Ability_SanguineSpear.cs",
+              "RelativeToolTip": "Ability_SanguineSpear.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BloodSpew.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\BloodSpew.cs",
+              "RelativeDocumentMoniker": "BloodSpew.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\BloodSpew.cs",
+              "RelativeToolTip": "BloodSpew.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwDIAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Ability_Bloodfocus.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Ability_Bloodfocus.cs",
+              "RelativeDocumentMoniker": "Ability_Bloodfocus.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Ability_Bloodfocus.cs",
+              "RelativeToolTip": "Ability_Bloodfocus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SanguineSpear.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\SanguineSpear.cs",
+              "RelativeDocumentMoniker": "SanguineSpear.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\SanguineSpear.cs",
+              "RelativeToolTip": "SanguineSpear.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCoAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AbilityExtension_HemogenRequirement.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\AbilityExtension_HemogenRequirement.cs",
+              "RelativeDocumentMoniker": "AbilityExtension_HemogenRequirement.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\AbilityExtension_HemogenRequirement.cs",
+              "RelativeToolTip": "AbilityExtension_HemogenRequirement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAkwA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AbilityExtension_HemogenCost.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\AbilityExtension_HemogenCost.cs",
+              "RelativeDocumentMoniker": "AbilityExtension_HemogenCost.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\AbilityExtension_HemogenCost.cs",
+              "RelativeToolTip": "AbilityExtension_HemogenCost.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VPEH_DefOf.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\VPEH_DefOf.cs",
+              "RelativeDocumentMoniker": "VPEH_DefOf.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\VPEH_DefOf.cs",
+              "RelativeToolTip": "VPEH_DefOf.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAtwAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Hediff_Bloodmist.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Hediff_Bloodmist.cs",
+              "RelativeDocumentMoniker": "Hediff_Bloodmist.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Hediff_Bloodmist.cs",
+              "RelativeToolTip": "Hediff_Bloodmist.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AbilityExtension_Psycast_GetEntropyUsedByPawn_Patch.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\AbilityExtension_Psycast_GetEntropyUsedByPawn_Patch.cs",
+              "RelativeDocumentMoniker": "AbilityExtension_Psycast_GetEntropyUsedByPawn_Patch.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\AbilityExtension_Psycast_GetEntropyUsedByPawn_Patch.cs",
+              "RelativeToolTip": "AbilityExtension_Psycast_GetEntropyUsedByPawn_Patch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Ability_Bloodstorm.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Ability_Bloodstorm.cs",
+              "RelativeDocumentMoniker": "Ability_Bloodstorm.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Ability_Bloodstorm.cs",
+              "RelativeToolTip": "Ability_Bloodstorm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Ability_BloodSpew.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Ability_BloodSpew.cs",
+              "RelativeDocumentMoniker": "Ability_BloodSpew.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\Ability_BloodSpew.cs",
+              "RelativeToolTip": "Ability_BloodSpew.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CachedResult.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\CachedResult.cs",
+              "RelativeDocumentMoniker": "CachedResult.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\CachedResult.cs",
+              "RelativeToolTip": "CachedResult.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAD4vxIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "VPEHemosageMod.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\VPEHemosageMod.cs",
+              "RelativeDocumentMoniker": "VPEHemosageMod.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\VPEHemosageMod.cs",
+              "RelativeToolTip": "VPEHemosageMod.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BloodShard.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\BloodShard.cs",
+              "RelativeDocumentMoniker": "BloodShard.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\BloodShard.cs",
+              "RelativeToolTip": "BloodShard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FocusStrengthOffset_DeathrestBuilding.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\FocusStrengthOffset_DeathrestBuilding.cs",
+              "RelativeDocumentMoniker": "FocusStrengthOffset_DeathrestBuilding.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\FocusStrengthOffset_DeathrestBuilding.cs",
+              "RelativeToolTip": "FocusStrengthOffset_DeathrestBuilding.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "StatPart_NearbyDeathrest.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\StatPart_NearbyDeathrest.cs",
+              "RelativeDocumentMoniker": "StatPart_NearbyDeathrest.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\StatPart_NearbyDeathrest.cs",
+              "RelativeToolTip": "StatPart_NearbyDeathrest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:21:19.695Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "QiGEBa07FT2d4Wy+VeUn6TQMJGQGHCRQuYfcNT5wOSmiaJfZuy4NGG+fHiyWDM5qkFdBbMqLwG7+5W/IaDLxAg==",
+  "success": true,
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\VPEHemosage.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vova\\.nuget\\packages\\krafs.publicizer\\2.2.1\\krafs.publicizer.2.2.1.nupkg.sha512",
+    "C:\\Users\\Vova\\.nuget\\packages\\krafs.rimworld.ref\\1.5.4055-beta\\krafs.rimworld.ref.1.5.4055-beta.nupkg.sha512",
+    "C:\\Users\\Vova\\.nuget\\packages\\lib.harmony\\2.3.3\\lib.harmony.2.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}
