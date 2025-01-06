@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.8": {
-      "Krafs.Publicizer/2.2.1": {
+      "Krafs.Publicizer/2.3.0": {
         "type": "package",
         "contentFiles": {
           "contentfiles/cs/any/Publicizer/IgnoresAccessChecksToAttribute.cs": {
@@ -121,7 +121,7 @@
       }
     },
     ".NETFramework,Version=v4.8/win": {
-      "Krafs.Publicizer/2.2.1": {
+      "Krafs.Publicizer/2.3.0": {
         "type": "package",
         "contentFiles": {
           "contentfiles/cs/any/Publicizer/IgnoresAccessChecksToAttribute.cs": {
@@ -240,7 +240,7 @@
       }
     },
     ".NETFramework,Version=v4.8/win-arm64": {
-      "Krafs.Publicizer/2.2.1": {
+      "Krafs.Publicizer/2.3.0": {
         "type": "package",
         "contentFiles": {
           "contentfiles/cs/any/Publicizer/IgnoresAccessChecksToAttribute.cs": {
@@ -359,7 +359,7 @@
       }
     },
     ".NETFramework,Version=v4.8/win-x64": {
-      "Krafs.Publicizer/2.2.1": {
+      "Krafs.Publicizer/2.3.0": {
         "type": "package",
         "contentFiles": {
           "contentfiles/cs/any/Publicizer/IgnoresAccessChecksToAttribute.cs": {
@@ -478,7 +478,7 @@
       }
     },
     ".NETFramework,Version=v4.8/win-x86": {
-      "Krafs.Publicizer/2.2.1": {
+      "Krafs.Publicizer/2.3.0": {
         "type": "package",
         "contentFiles": {
           "contentfiles/cs/any/Publicizer/IgnoresAccessChecksToAttribute.cs": {
@@ -598,10 +598,10 @@
     }
   },
   "libraries": {
-    "Krafs.Publicizer/2.2.1": {
-      "sha512": "QGI4nMGQbKsuFUUboixVHu4mv3lHB5RejIa7toIlzTmwLkuCYYEpUBJjmy3OpXYyj5dVSZAXVbr4oeMSloE67Q==",
+    "Krafs.Publicizer/2.3.0": {
+      "sha512": "DjktTgctwxUMhMkWKrRECer3LR1lHzanCOlE4mpinAiY8SfWJq4DG/QitP5h1A+WBjyWHzQSOG+204i3VpO1FA==",
       "type": "package",
-      "path": "krafs.publicizer/2.2.1",
+      "path": "krafs.publicizer/2.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -612,7 +612,7 @@
         "build/net472/dnlib.dll",
         "contentfiles/cs/any/Publicizer/IgnoresAccessChecksToAttribute.cs",
         "icon.png",
-        "krafs.publicizer.2.2.1.nupkg.sha512",
+        "krafs.publicizer.2.3.0.nupkg.sha512",
         "krafs.publicizer.nuspec"
       ]
     },
@@ -769,20 +769,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vova\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\VPEHemosage.csproj",
+      "projectUniqueName": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\VPEHemosage.csproj",
       "projectName": "VPEHemosage",
-      "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\VPEHemosage.csproj",
-      "packagesPath": "C:\\Users\\Vova\\.nuget\\packages\\",
-      "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\obj\\",
+      "projectPath": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\VPEHemosage.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaPsycastsExpanded-Hemosage\\1.5\\Source\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Vova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -796,11 +796,6 @@
         "net48": {
           "projectReferences": {}
         }
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
