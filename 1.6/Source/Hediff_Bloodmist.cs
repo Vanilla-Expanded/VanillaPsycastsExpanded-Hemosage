@@ -7,23 +7,34 @@ namespace VPEHemosage;
 
 public class Hediff_Bloodmist : HediffWithComps
 {
-    public int tickInterval = 120;
+    public int nextVomitTick;
     public int nextFleckSpawnTick;
-    private static readonly IntRange TickInterval = new IntRange(5, 10);
+    private static readonly IntRange VomitTickInterval = new IntRange(120, 180);
+    private static readonly IntRange FleckTickInterval = new IntRange(5, 10);
     private static readonly Vector3 BreathOffset = new Vector3(0f, 0f, -0.04f);
     public override bool ShouldRemove => base.ShouldRemove || pawn.IsHemogenic();
-    public override void Tick()
+
+    public override void PostAdd(DamageInfo? dinfo)
     {
-        base.Tick();
-        if (this.pawn.IsHashIntervalTick(tickInterval))
+        base.PostAdd(dinfo);
+
+        nextVomitTick = Find.TickManager.TicksGame + VomitTickInterval.RandomInRange;
+        nextFleckSpawnTick  = Find.TickManager.TicksGame + FleckTickInterval.RandomInRange;
+    }
+
+    public override void TickInterval(int delta)
+    {
+        base.TickInterval(delta);
+
+        if (Find.TickManager.TicksGame >= nextVomitTick)
         {
-            tickInterval = Rand.RangeInclusive(120, 180);
+            nextVomitTick = Find.TickManager.TicksGame + VomitTickInterval.RandomInRange;
             if (pawn.Map != null)
             {
                 Ability_CorpseExplosion.ThrowBloodSmoke(pawn.DrawPos, pawn.Map, 2f);
                 if (pawn.CurJobDef != JobDefOf.Vomit)
                 {
-                    pawn.jobs.StartJob(JobMaker.MakeJob(JobDefOf.Vomit), JobCondition.InterruptForced, null, resumeCurJobAfterwards: true);
+                    pawn.jobs.StartJob(JobMaker.MakeJob(JobDefOf.Vomit), JobCondition.InterruptForced, resumeCurJobAfterwards: true);
                 }
             }
         }
@@ -31,7 +42,7 @@ public class Hediff_Bloodmist : HediffWithComps
         {
             ThrowFleck(pawn.Drawer.DrawPos + pawn.Drawer.renderer.BaseHeadOffsetAt(pawn.Rotation) + pawn.Rotation.FacingCell.ToVector3() * 0.21f + BreathOffset
                 , pawn.Map, pawn.Rotation.AsAngle, pawn.Drawer.tweener.LastTickTweenedVelocity);
-            nextFleckSpawnTick = Find.TickManager.TicksGame + TickInterval.RandomInRange;
+            nextFleckSpawnTick = Find.TickManager.TicksGame + FleckTickInterval.RandomInRange;
         }
     }
 
@@ -54,7 +65,7 @@ public class Hediff_Bloodmist : HediffWithComps
     public override void ExposeData()
     {
         base.ExposeData();
-        Scribe_Values.Look(ref tickInterval, "tickInterval");
+        Scribe_Values.Look(ref nextVomitTick, "nextVomitTick");
         Scribe_Values.Look(ref nextFleckSpawnTick, "nextFleckSpawnTick");
     }
 }

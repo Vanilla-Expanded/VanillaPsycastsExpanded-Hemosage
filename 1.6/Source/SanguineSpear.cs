@@ -18,16 +18,16 @@ public class SanguineSpear : Projectile_Pointing
         }
     }
 
-    public override void Tick()
+    public override void TickInterval(int delta)
     {
         if (this.Map != null)
         {
-            float num = ArcHeightFactor * GenMath.InverseParabola(DistanceCoveredFraction);
+            float num = ArcHeightFactor * GenMath.InverseParabola(DistanceCoveredFraction) * delta;
             Vector3 drawPos = DrawPos;
             Vector3 position = drawPos + new Vector3(0f, 0f, 1f) * num;
             Ability_CorpseExplosion.ThrowBloodSmoke(position, this.Map, 0.5f);
         }
-        base.Tick();
+        base.TickInterval(delta);
     }
     public override void Impact(Thing hitThing, bool blockedByShield = false)
     {

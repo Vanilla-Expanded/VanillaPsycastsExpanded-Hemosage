@@ -19,6 +19,6 @@ public class AbilityExtension_HemogenCost : AbilityExtension_AbilityMod
 
     public override string GetDescription(Ability ability)
     {
-        return (("AbilityHemogenCost".Translate() + ": ") + Mathf.RoundToInt(hemogenCost * 100f)).ToString().Colorize(Color.cyan);
+        return ("AbilityHemogenCost".Translate() + ": " + Mathf.RoundToInt(hemogenCost * 100f)).Colorize(Color.cyan);
     }
 }
