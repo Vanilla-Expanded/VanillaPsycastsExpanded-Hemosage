@@ -1,41 +1,40 @@
 ﻿using System.Runtime.CompilerServices;
 using Verse;
 
-namespace VPEHemosage
+namespace VPEHemosage;
+
+public class CachedResult<T>
 {
-    public class CachedResult<T>
+    public int lastTickCheck;
+    private T _result;
+    public int tickCheckInterval;
+
+    public CachedResult(T result, int tickCheckInterval)
     {
-        public int lastTickCheck;
-        private T _result;
-        public int tickCheckInterval;
-
-        public CachedResult(T result, int tickCheckInterval)
+        this._result = result;
+        this.tickCheckInterval = tickCheckInterval;
+    }
+    public bool CacheExpired
+    {
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        get
         {
-            this._result = result;
-            this.tickCheckInterval = tickCheckInterval;
+            return lastTickCheck == 0 || Find.TickManager.TicksGame > lastTickCheck + tickCheckInterval;
         }
-        public bool CacheExpired
-        {
-            [MethodImpl(MethodImplOptions.AggressiveInlining)]
-            get
-            {
-                return lastTickCheck == 0 || Find.TickManager.TicksGame > lastTickCheck + tickCheckInterval;
-            }
-        }
+    }
 
-        public T Result
+    public T Result
+    {
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        get
         {
-            [MethodImpl(MethodImplOptions.AggressiveInlining)]
-            get
-            {
-                return _result;
-            }
-            [MethodImpl(MethodImplOptions.AggressiveInlining)]
-            set
-            {
-                _result = value;
-                lastTickCheck = Find.TickManager.TicksGame;
-            }
+            return _result;
+        }
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        set
+        {
+            _result = value;
+            lastTickCheck = Find.TickManager.TicksGame;
         }
     }
 }

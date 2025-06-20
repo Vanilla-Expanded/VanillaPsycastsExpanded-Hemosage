@@ -1,13 +1,12 @@
 ﻿using HarmonyLib;
 using Verse;
 
-namespace VPEHemosage
+namespace VPEHemosage;
+
+public class VPEHemosageMod : Mod
 {
-    public class VPEHemosageMod : Mod
+    public VPEHemosageMod(ModContentPack pack) : base(pack)
     {
-        public VPEHemosageMod(ModContentPack pack) : base(pack)
-        {
-			new Harmony("VPEHemosageMod").PatchAll();
-        }
+        new Harmony("VPEHemosageMod").PatchAll();
     }
 }

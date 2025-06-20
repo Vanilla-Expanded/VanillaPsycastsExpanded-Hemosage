@@ -1,14 +1,13 @@
 ﻿using RimWorld.Planet;
 using VEF.Abilities;
 
-namespace VPEHemosage
+namespace VPEHemosage;
+
+public class Ability_Bloodstorm : Ability
 {
-    public class Ability_Bloodstorm : Ability
+    public override void Cast(params GlobalTargetInfo[] targets)
     {
-        public override void Cast(params GlobalTargetInfo[] targets)
-        {
-            base.Cast(targets);
-            pawn.Map.weatherManager.TransitionTo(VPEH_DefOf.VPEH_Bloodstorm);
-        }
+        base.Cast(targets);
+        pawn.Map.weatherManager.TransitionTo(VPEH_DefOf.VPEH_Bloodstorm);
     }
 }

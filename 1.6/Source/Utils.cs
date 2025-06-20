@@ -1,10 +1,9 @@
 ﻿using RimWorld;
 using Verse;
 
-namespace VPEHemosage
+namespace VPEHemosage;
+
+public static class Utils
 {
-    public static class Utils
-    {
-        public static bool IsHemogenic(this Pawn pawn) => pawn.genes?.GetFirstGeneOfType<Gene_Hemogen>() != null;
-    }
+    public static bool IsHemogenic(this Pawn pawn) => pawn.genes?.GetFirstGeneOfType<Gene_Hemogen>() != null;
 }
