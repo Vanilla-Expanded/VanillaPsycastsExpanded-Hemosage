@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <MeditationFocusDef>
+        <defName>VPEH_Deathrest</defName>
+        <label>deathrest</label>
+        <modExtensions>
+            <li Class="VanillaPsycastsExpanded.MeditationFocusExtension">
+                <icon>UI/PsyfocusIcons/PsyfocusDeathrest</icon>
+                <pointsOnly>true</pointsOnly>
+                <statParts>
+                    <li Class="VPEHemosage.StatPart_NearbyDeathrest" />
+                </statParts>
+            </li>
+        </modExtensions>
+    </MeditationFocusDef>
+	
+</Defs>

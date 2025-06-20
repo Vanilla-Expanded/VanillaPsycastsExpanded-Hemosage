@@ -1,4 +1,0 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaPsycastsExpanded-Hemosage\1.4\Assemblies\VPEHemosage.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaPsycastsExpanded-Hemosage\1.4\Source\obj\Debug\VPEHemosage.csproj.AssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaPsycastsExpanded-Hemosage\1.4\Source\obj\Debug\VPEHemosage.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaPsycastsExpanded-Hemosage\1.4\Source\obj\Debug\VPEHemosage.dll

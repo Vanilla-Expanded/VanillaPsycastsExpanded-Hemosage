@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>VPEH_BloodShard</defName>
+		<label>blood shard</label>
+		<thingClass>VPEHemosage.BloodShard</thingClass>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>VisEffects</altitudeLayer>
+		<drawOffscreen>true</drawOffscreen>
+		<graphicData>
+			<texPath>Effects/Hemosage/BloodShard/BloodShard</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Cut</damageDef>
+			<damageAmountBase>8</damageAmountBase>
+			<speed>70</speed>
+		</projectile>
+	</ThingDef>
+
+	<VEF.Weapons.ExpandableProjectileDef ParentName="BaseBullet">
+		<defName>VPEH_BloodSpew</defName>
+		<label>blood spew</label>
+		<thingClass>VPEHemosage.BloodSpew</thingClass>
+		<graphicData>
+			<texPath>Effects/Hemosage/BloodSpew</texPath>
+			<texPathFadeOut>Effects/Hemosage/BloodSpewFadeout</texPathFadeOut>
+		</graphicData>
+		<projectile>
+			<speed>45</speed>
+		</projectile>
+		<drawOffscreen>true</drawOffscreen>
+		<lifeTimeDuration>50</lifeTimeDuration>
+		<widthScaleFactor>1</widthScaleFactor>
+		<heightScaleFactor>1</heightScaleFactor>
+		<startingPositionOffset>(0, 0, -1)</startingPositionOffset>
+		<totalSizeScale>1.15</totalSizeScale>
+		<tickFrameRate>10</tickFrameRate>
+		<finalTickFrameRate>10</finalTickFrameRate>
+		<tickDamageRate>20</tickDamageRate>
+		<disableVanillaDamageMethod>true</disableVanillaDamageMethod>
+		<minDistanceToAffect>0.5</minDistanceToAffect>
+	</VEF.Weapons.ExpandableProjectileDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>VPEH_SanguineSpear</defName>
+		<label>sanguine spear</label>
+		<thingClass>VPEHemosage.SanguineSpear</thingClass>
+		<graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
+			<texPath>Effects/Hemosage/BloodLance</texPath>
+			<ticksPerFrame>5</ticksPerFrame>
+			<graphicClass>VanillaPsycastsExpanded.Graphics.Graphic_Animated</graphicClass>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<drawOffscreen>true</drawOffscreen>
+		<drawerType>RealtimeOnly</drawerType>
+		<projectile>
+			<explosionRadius>1.9</explosionRadius>
+			<soundExplode>VPEH_CorpseExplosion_Cast</soundExplode>
+			<damageDef>Cut</damageDef>
+			<damageAmountBase>1</damageAmountBase>
+			<speed>20</speed>
+			<arcHeightFactor>50</arcHeightFactor>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<shadowSize>0.6</shadowSize>
+		</projectile>
+	</ThingDef>
+</Defs>

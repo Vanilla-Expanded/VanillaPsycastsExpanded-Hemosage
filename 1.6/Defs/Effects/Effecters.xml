@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<EffecterDef>
+		<defName>VPEH_Bloodfocus</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+				<positionRadius>0.2</positionRadius>
+				<positionOffset>(0, 0, 0.5)</positionOffset>
+				<ticksBetweenMotes>25</ticksBetweenMotes>
+				<fleckDef>BloodFeedSplash</fleckDef>
+				<burstCount>1</burstCount>
+				<color>(210, 50, 0)</color>
+				<speed>-1.5</speed>
+				<rotateTowardsTargetCenter>True</rotateTowardsTargetCenter>
+				<fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>
+				<spawnLocType>RandomDrawPosOnTarget</spawnLocType>
+				<attachToSpawnThing>true</attachToSpawnThing>
+			</li>
+		</children>
+	</EffecterDef>
+
+
+</Defs>

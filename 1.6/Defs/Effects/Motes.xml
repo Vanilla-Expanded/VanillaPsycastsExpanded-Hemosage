@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="MoteBase">
+		<defName>VPEH_BloodmistMote</defName>
+		<thingClass>VPEHemosage.Bloodmist</thingClass>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<drawOffscreen>true</drawOffscreen>
+		<graphicData>
+			<texPath>Things/Mote/BloodSplash</texPath>
+			<shaderType>Mote</shaderType>
+			<color>(0.9,0,0,0.8)</color>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<mote>
+			<fadeInTime>0.05</fadeInTime>
+			<fadeOutTime>0.05</fadeOutTime>
+			<solidTime>1.15</solidTime>
+		</mote>
+	</ThingDef>
+
+	<ThingDef ParentName="MoteBase">
+		<defName>VPEH_CorpseExplosion</defName>
+		<thingClass>VanillaPsycastsExpanded.MoteAttachedOneTime</thingClass>
+		<graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
+			<texPath>Effects/Hemosage/CorpseExplosion</texPath>
+			<ticksPerFrame>3</ticksPerFrame>
+			<graphicClass>VanillaPsycastsExpanded.Graphics.Graphic_AnimatedMote</graphicClass>
+			<drawSize>(4, 4)</drawSize>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<mote>
+			<solidTime>0.5</solidTime>
+		</mote>
+	</ThingDef>
+
+	<ThingDef ParentName="MoteGlowDistortBackground">
+		<defName>VPE_PsycastAreaEffect_CorpseExplosion</defName>
+		<altitudeLayer>MoteLow</altitudeLayer>
+		<mote>
+			<fadeInTime>0.02</fadeInTime>
+			<fadeOutTime>0.1</fadeOutTime>
+			<growthRate>1.5</growthRate>
+		</mote>
+		<graphicData>
+			<texPath>Things/Mote/Black</texPath>
+			<shaderParameters>
+                <_distortionIntensity>0.15</_distortionIntensity>
+				<_brightnessMultiplier>1.15</_brightnessMultiplier>
+			</shaderParameters>
+			<drawSize>1.9</drawSize>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="MoteBase">
+		<defName>VPEH_BloodRite</defName>
+		<thingClass>VanillaPsycastsExpanded.MoteAttachedMovingAround</thingClass>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<drawOffscreen>true</drawOffscreen>
+		<graphicData>
+			<texPath>Effects/Hemosage/BloodBall/BloodBall</texPath>
+			<drawSize>0.7</drawSize>
+		</graphicData>
+		<mote>
+			<solidTime>999999</solidTime>
+			<needsMaintenance>true</needsMaintenance>
+		</mote>
+	</ThingDef>
+
+</Defs>
