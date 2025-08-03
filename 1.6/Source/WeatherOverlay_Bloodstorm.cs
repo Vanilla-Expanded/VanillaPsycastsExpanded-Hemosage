@@ -1,15 +1,21 @@
 ﻿using RimWorld;
 using System.Collections.Generic;
 using System.Linq;
+using VEF.CacheClearing;
 using Verse;
 
 namespace VPEHemosage;
 
 public class WeatherOverlay_Bloodstorm : WeatherOverlayDualPanner
 {
-    private HashSet<Faction> affectedFactions;
+    public Dictionary<Map, Ability_Bloodstorm> currentAbilities = [];
 
     public static Dictionary<Map, CachedResult<List<IntVec3>>> unroofedCells = new();
+
+    static WeatherOverlay_Bloodstorm()
+    {
+        ClearCaches.clearCacheTypes.Add(typeof(WeatherOverlay_Bloodstorm));
+    }
 
     public override void TickOverlay(Map map, float lerpFactor)
     {
@@ -47,7 +53,8 @@ public class WeatherOverlay_Bloodstorm : WeatherOverlayDualPanner
                         {
                             pawn.health.AddHediff(VPEH_DefOf.VPEH_Bloodmist);
                         }
-                        AffectGoodwill(pawn.HomeFaction, pawn);
+                        if (currentAbilities.TryGetValue(map, out var ability))
+                            AffectGoodwill(pawn.HomeFaction, pawn, ability);
                         pawn.needs?.mood?.thoughts?.memories?.TryGainMemory(ThoughtMaker.MakeThought(VPEH_DefOf.VPEH_SoakedInBlood, 0));
                     }
                 }
@@ -56,14 +63,19 @@ public class WeatherOverlay_Bloodstorm : WeatherOverlayDualPanner
             if (map.weatherManager.curWeatherAge >= 6000)
             {
                 map.weatherManager.TransitionTo(WeatherDefOf.Clear);
+                if (currentAbilities.TryGetValue(map, out var ability))
+                {
+                    ability.currentOverlay = null;
+                    currentAbilities.Remove(map);
+                }
             }
         }
     }
 
-    private void AffectGoodwill(Faction faction, Pawn p)
+    private void AffectGoodwill(Faction faction, Pawn p, Ability_Bloodstorm ability)
     {
-        affectedFactions ??= [];
-        if (faction is { IsPlayer: false } && !faction.HostileTo(Faction.OfPlayer) && p is not { IsSlaveOfColony: true } && affectedFactions.Add(faction))
+        ability.affectedFactions ??= [];
+        if (faction is { IsPlayer: false } && !faction.HostileTo(Faction.OfPlayer) && p is not { IsSlaveOfColony: true } && ability.affectedFactions.Add(faction))
         {
             Faction.OfPlayer.TryAffectGoodwillWith(faction, -35, canSendMessage: true, canSendHostilityLetter: true, HistoryEventDefOf.UsedHarmfulAbility);
         }

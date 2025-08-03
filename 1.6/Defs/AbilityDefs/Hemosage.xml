@@ -299,6 +299,7 @@
 		<description>Creates a downpour of blood, inflicting non-hemogenic individuals with bloodmist, causing intense vomiting. Sanguophages instead regenerate hemogen, and don’t gain psychic heat when casting any psycasts under the effects of bloodstorm.</description>
 		<iconPath>Abilities/Hemosage/Bloodstorm</iconPath>
 		<abilityClass>VPEHemosage.Ability_Bloodstorm</abilityClass>
+		<needsTickingInterval>true</needsTickingInterval>
 		<targetMode>Self</targetMode>
 		<castTime>600</castTime>
 		<castSound>VPEH_Bloodstorm_Cast</castSound>
